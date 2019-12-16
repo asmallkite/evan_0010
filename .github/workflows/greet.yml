@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Greet action step
         id: greet1
-        uses: asmallkite/evan-actions
+        uses: actions/hello-world-javascript-action@v1
         with:
           who-to-greet: 'Evan zheng li'   
       - name: Get the output name
