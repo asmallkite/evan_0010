@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Greet action step
         id: greet1
-        uses: asmallkite/evan-actions@v2
+        uses: asmallkite/evan-actions@master
         with:
           who-to-greet: 'Evan Hulk'   
       - name: Get the output name
